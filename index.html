@@ -1,145 +1,48 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profil Mahasiswa | D4 Elektromedis</title>
-    <link rel="stylesheet" href="style.css">
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>Profil Kampus | UMPKU</title>
+ <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<header class="header" id="beranda">
-    <div class="header-content">
-        <p class="subtitle">WEBSITE PROFIL MAHASISWA</p>
-        <h1>Andhika Gilang Eka Putra</h1>
-        <p class="description">Mahasiswa Program Studi D4 Elektromedis</p>
-    </div>
-</header>
-
-<nav class="menu">
-    <a href="#beranda">Beranda</a>
-    <a href="#profil">Profil</a>
-    <a href="#pendidikan">Pendidikan</a>
-    <a href="#keahlian">Keahlian</a>
-    <a href="#kontak">Kontak</a>
-</nav>
-
-<main class="container">
-
-<section id="profil" class="panel">
-    <div class="section-title">
-        <span>01</span>
-        <h2>Tentang Saya</h2>
-    </div>
-
-    <div class="profil">
-        <div class="foto">
-            <img src="foto-saya.jpg" alt="Foto Andhika Gilang Eka Putra">
-        </div>
-
-        <div class="identitas">
-            <h3>Andhika Gilang Eka Putra</h3>
-            <p>
-                Saya merupakan mahasiswa Program Studi <strong>D4 Elektromedis</strong>
-                yang memiliki ketertarikan terhadap teknologi alat kesehatan,
-                elektronika, dan pemrograman.
-            </p>
-            <p>
-                Saya senang mempelajari hal-hal baru serta mengembangkan kemampuan
-                dalam melakukan pemeliharaan, pemeriksaan, dan troubleshooting
-                peralatan elektromedis.
-            </p>
-        </div>
-    </div>
-
-    <div class="data-grid">
-        <div class="data"><span>NIM</span><strong>1202405019</strong></div>
-        <div class="data"><span>Program Studi</span><strong>D4 Elektromedis</strong></div>
-        <div class="data"><span>Universitas</span><strong>UMPKU Surakarta</strong></div>
-        <div class="data"><span>Semester</span><strong>5</strong></div>
-    </div>
-</section>
-
-<section id="pendidikan" class="panel">
-    <div class="section-title">
-        <span>02</span>
-        <h2>Pendidikan</h2>
-    </div>
-
-    <div class="timeline">
-        <article class="timeline-item">
-            <div class="circle">1</div>
-            <div>
-                <h3>Sekolah Menengah</h3>
-                <p>SMA NEGERI COLOMADU</p>
-                <small>2021-2024</small>
-            </div>
-        </article>
-
-        <article class="timeline-item">
-            <div class="circle">2</div>
-            <div>
-                <h3>Pendidikan Tinggi</h3>
-                <p>Universitas Muhammadiyah PKU Surakarta</p>
-                <small>Program Studi D4 Elektromedis</small>
-            </div>
-        </article>
-    </div>
-</section>
-
-<section id="keahlian" class="panel">
-    <div class="section-title">
-        <span>03</span>
-        <h2>Keahlian & Minat</h2>
-    </div>
-
+ <a class="lewati" href="#konten">Lewati ke konten</a>
+ <div class="halaman">
+  <header class="header" id="beranda">
+   <p class="identitas">Praktikum Pemrograman Web</p>
+   <h1>Universitas Muhammadiyah PKU Surakarta</h1>
+   <p>Belajar membangun halaman web yang rapi dan responsif.</p>
+  </header>
+  <nav class="menu" aria-label="Navigasi utama">
+   <a href="#beranda">Beranda</a>
+   <a href="#profil">Profil</a>
+   <a href="#layanan">Layanan</a>
+  </nav>
+  <main id="konten" tabindex="-1">
+   <section id="profil" class="panel">
+    <h2>Profil Kampus</h2>
+    <p>Halaman ini merupakan latihan HTML dan CSS dengan
+       identitas Universitas Muhammadiyah PKU Surakarta.</p>
+   </section>
+   <section id="layanan" class="panel">
+    <h2>Contoh Layanan Digital</h2>
     <div class="kartu-grid">
-        <article class="kartu">
-            <div class="icon">01</div>
-            <h3>Elektronika</h3>
-            <p>Memahami dasar rangkaian dan komponen elektronika.</p>
-        </article>
-
-        <article class="kartu">
-            <div class="icon">02</div>
-            <h3>Alat Kesehatan</h3>
-            <p>Mempelajari prinsip kerja dan penggunaan peralatan elektromedis.</p>
-        </article>
-
-        <article class="kartu">
-            <div class="icon">03</div>
-            <h3>Pemrograman</h3>
-            <p>Mempelajari HTML, CSS, MATLAB, dan pemrograman dasar.</p>
-        </article>
-
-        <article class="kartu">
-            <div class="icon">04</div>
-            <h3>Troubleshooting</h3>
-            <p>Memiliki minat dalam pemeriksaan dan pencarian kerusakan alat.</p>
-        </article>
+     <article class="kartu">
+      <h3>Informasi Akademik</h3>
+      <p>Contoh ruang informasi kegiatan perkuliahan.</p>
+     </article>
+     <article class="kartu">
+      <h3>Pembelajaran Daring</h3>
+      <p>Contoh ruang informasi materi dan tugas kuliah.</p>
+     </article>
     </div>
-</section>
-
-<section id="kontak" class="panel kontak">
-    <div class="section-title">
-        <span>04</span>
-        <h2>Kontak</h2>
-    </div>
-
-    <div class="kontak-grid">
-        <div><span>Email</span><p>1202405019@students.itspku.ac.id</p></div>
-        <div><span>Nomor HP</span><p>085774388732</p></div>
-        <div><span>Alamat</span><p>Jl. Raya Colomadu No. 123, Colomadu, Karanganyar</p></div>
-    </div>
-</section>
-
-</main>
-
-<footer class="footer">
-    <h3>Andhika Gilang Eka Putra</h3>
-    <p>Mahasiswa D4 Elektromedis</p>
-    <p class="copyright">&copy; 2026 Profil Mahasiswa</p>
-</footer>
-
+   </section>
+  </main>
+  <footer class="footer">
+   <p>Universitas Muhammadiyah PKU Surakarta</p>
+   <p>Latihan mahasiswa — Praktikum Pemrograman Web</p>
+  </footer>
+ </div>
 </body>
 </html>
